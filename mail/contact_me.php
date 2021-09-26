@@ -16,7 +16,7 @@ $phone = $_POST['phone'];
 $message = $_POST['message'];
 	
 // Create the email and send the message
-$to = 'mendez.sylvain@wanadoo.fr'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+$to = 'mendez.sylvain@wanadoo.fr';
 $email_subject = "AVSTB:  $name";
 $email_body = "Nom: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 $headers = "From: noreply@avs-taxi-brignoles.fr\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
